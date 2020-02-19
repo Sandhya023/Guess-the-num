@@ -17,6 +17,7 @@ import Input from '../components/Input';
 
 const GameScreen = props => {
     const [enteredValue, setEnteredValue] = useState('');
+//    const [confirmed, setConfirmed] = useState(false);
 
     const numberInputHandler = InputText => {
         setEnteredValue(InputText.replace(/[^0-9]/g, ''));
