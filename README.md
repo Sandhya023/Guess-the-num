@@ -5,4 +5,5 @@ If the user will guess wrong than it will show alert message and user will guess
 
 <img align="left" src="guess.png" height="600"> <img align="right" src="num.png" height="600">
 <img align="left" src="greater.png" height="600"> <img align="right" src="lower.png" height="600"><img align="left" src="alert.png" height="600">
+ <img align="right" src="over.png" height="600">
 
