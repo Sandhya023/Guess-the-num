@@ -12,7 +12,7 @@ import {
 import Card from '../components/Card';
 import Input from '../components/Input';
 import NumberContainer from '../components/NumberContainer';
-import Color from '../constants/Color';
+import Colors from '../constants/colors';
 
 const StartGameScreen = props => {
   const [enteredValue, setEnteredValue] = useState('');
@@ -81,14 +81,14 @@ const StartGameScreen = props => {
               <Button
                 title="Reset"
                 onPress={resetInputHandler}
-                color={Color.accent}
+                color={Colors.accent}
               />
             </View>
             <View style={styles.button}>
               <Button
                 title="Confirm"
                 onPress={confirmInputHandler}
-                color={Color.primary}
+                color={Colors.primary}
               />
             </View>
           </View>
