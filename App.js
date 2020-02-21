@@ -5,6 +5,7 @@ import Header from './components/Header';
 import StartGameScreen from './screens/StartGameScreen';
 import GameScreen from './screens/GameScreen';
 import GameOverScreen from './screens/GameOverScreen';
+import MainButton from './components/MainButton';
 
 export default function App() {
   const [userNumber, setUserNumber] = useState();
@@ -24,11 +25,11 @@ export default function App() {
   };
 
   let content = <StartGameScreen onStartGame={startGameHandler} />;
-  content =  <GameOverScreen
-  roundsNumber={1}
-  userNumber={1}
-  onRestart={configureNewGameHandler}
-/>
+ // content =  <GameOverScreen
+ // roundsNumber={1}
+ // userNumber={1}
+ // onRestart={configureNewGameHandler}
+///>
 
   if (userNumber && guessRounds <= 0) {
     content = (
